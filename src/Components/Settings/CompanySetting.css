@@ -1,0 +1,152 @@
+.company-setting form {
+    gap: 1rem;
+    /* margin-top: 20px; */
+    background: #fff;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.company-setting .input-filed input {
+    width: 100%;
+    padding: 8px 4px;
+    font-size: 17px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.company-setting .input-filed input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+
+.company-setting .setting-btn {
+    /* width: 100%; */
+    padding: 0.4rem 0.4rem;
+    border: none;
+    font-size: 14px;
+    margin-top: 14px;
+    background-color: #275df5;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.company-setting .setting-btn:hover{
+    background-color: #2351d4;
+}
+
+.service {
+    margin-top: 16px;
+    gap: 1.5rem;
+    background: #fff;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.service b {
+    display: block;
+    background-color: #275df5;
+    padding: .5rem;
+    color: #fff;
+    font-size: 16px;
+}
+
+.servicesOffer {
+    align-self: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.service .serviceText{
+  flex: 1;
+  font-size: 15px;
+}
+
+.service .servicesOffer div,
+.service .servicesLooking div{
+    gap: 24px;
+    padding: 10px 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.service .servicesOffer div:hover,
+.service .servicesLooking div:hover{
+    cursor: pointer;
+    background-color: #f5f5f5;
+}
+
+.service .servicesOffer div:last-child,
+.service .servicesLooking div:last-child{
+    border-bottom: none;
+}
+
+.service .servicesOffer div span,
+.service .servicesLooking div span{
+    font-size: 15px;
+}
+
+.service .servicesOffer div svg,
+.service .servicesLooking div svg{
+    cursor: pointer;
+    color: rgb(112, 7, 7);
+}
+
+.servicesLooking {
+    align-self: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.addserviceBtn{
+    border: none;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #275df5;
+    font-size: 14px;
+    transition: all 0.2s linear;
+}
+
+.addserviceBtn:hover{
+    background-color: #2351d4;
+}
+
+.addserviceBtn span{
+    color: #fff;
+}
+
+.addserviceBtn svg{
+    fill: #fff;
+}
+
+
+.saveBtn{
+    margin-top: 11px;
+    padding: 0.4rem 1.5rem;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #275df5;
+    color: #fff;
+    transition: all 0.2s linear;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+.saveBtn:hover{
+    background-color: #2351d4;
+}

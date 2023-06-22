@@ -1,0 +1,284 @@
+.Profile {
+  width: 100%;
+  height: fit-content;
+  margin-top: 95px;
+  gap: 1.5rem;
+  padding-bottom: 25px;
+}
+
+.Profile .profile-left-data {
+  position: sticky;
+  width: 25%;
+  top: 95px;
+  /* height: 82vh; */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  align-self: flex-start;
+  padding: 15px 10px;
+}
+
+.Profile .profile-left-data .profile-header {
+  text-align: center;
+}
+
+.Profile .profile-left-data .profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #275df5;
+  padding: 2px;
+}
+
+.Profile .profile-left-data .profile-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.Profile .profile-left-data .profile-header .userName {
+  margin: 10px 0px;
+  font-size: 18px;
+  color: #000;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.Profile .profile-left-data .userBio {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 9px;
+}
+
+.Profile .profile-left-data .lastUpdate {
+  margin-bottom: 11px;
+  font-size: 15px;
+  color: #777;
+}
+
+.Profile .view-profile-btn {
+  padding: 0.4em 0.8rem;
+  border: none;
+  background: #275df5;
+  border-radius: 17px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.Profile .view-profile-btn:hover{
+  background-color: #2351d4;
+}
+
+.Profile .profile-left-data .profile-menu-list {
+  margin-top: 20px;
+}
+
+.Profile .profile-left-data .profile-menu-list li{
+  margin-top: 10px;
+}
+
+.Profile .profile-left-data .profile-menu-list li a{
+  padding: 4px 10px;
+  border-radius: 19px;
+  gap: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.Profile .profile-left-data .profile-menu-list li a.active {
+  background: #f5f5f5;
+  font-weight: 500;
+}
+
+.Profile .profile-left-data .profile-menu-list li a.active  {
+  color: #000;
+}
+
+.Profile .profile-left-data .profile-menu-list li a:hover {
+  background: #f5f5f5;
+}
+
+.Profile .profile-left-data .profile-menu-list li a {
+  color: #474d6a;
+  font-size: 15px;
+  /* pointer-events: none; */
+}
+
+.Profile .profile-left-data .profile-menu-list li svg {
+  /* pointer-events: none; */
+}
+
+.Profile .profile-right-data {
+  width: 75%;
+  height: 100%;
+  align-self: flex-start;
+}
+
+.Profile .profile-right-data .recommended-jobs {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.Profile .profile-right-data .jobsData {
+  columns: 2;
+  column-gap: 22px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.Profile .profile-right-data .profile-default-show-data-header {
+  gap: 1rem;
+}
+
+.Profile .profile-right-data .profile-default-show-data-header .companyImage {
+  width: 60px;
+  height: 50px;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  padding: 2px;
+}
+
+.Profile .profile-right-data .cart {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 11px;
+  border-radius: 7px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.Profile .profile-right-data .cart .day-ago-text {
+  align-self: flex-start;
+  font-size: 15px;
+  color: #777;
+  font-weight: 400;
+}
+
+.Profile
+  .profile-right-data
+  .profile-default-show-data-header
+  .companyImage
+  img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+
+.Profile .profile-right-data .profile-default-show-header-content {
+  margin-top: 10px;
+}
+
+.Profile .profile-right-data .profile-default-show-header-content .jobTitle {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.Profile
+  .profile-right-data
+  .profile-default-show-header-content
+  .company-name {
+  margin-bottom: 4px;
+  font-size: 14px;
+  color: #000;
+}
+
+.Profile
+  .profile-right-data
+  .profile-default-show-header-content
+  .job-location {
+  gap: 0.2rem;
+}
+
+.Profile
+  .profile-right-data
+  .profile-default-show-header-content
+  .job-location-text {
+  color: #777;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.Profile .profile-right-data .cart .view-more .view-more-text {
+  display: inline-block;
+  margin-top: 4px;
+  color: #275df5;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.Profile .profile-right-data .cart .view-more .view-more-text:hover{
+  color: #2351d4;
+}
+
+.Profile .profile-right-data .cart .profile-show-on-click {
+  margin-top: 5px;
+  height: 0;
+  transition: all 0.1s linear;
+  visibility: hidden;
+}
+
+.Profile .profile-right-data .cart .profile-show-on-click.active {
+  visibility: visible;
+}
+
+.Profile .profile-right-data .cart .profile-show-on-click p {
+  line-height: 20px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+@media screen and (max-width: 1000px) {
+  .Profile .profile-left-data {
+    position: fixed;
+    top: 69px;
+    bottom: 0px;
+    background: #fff;
+    left: -100%;
+    z-index: 9999;
+    border: none;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+    max-width: 268px;
+    width: 100%;
+    transition: left 0.3s linear;
+    border-radius: 0px;
+  }
+
+  .Profile .profile-left-data.active {
+    left: 0px;
+  }
+
+  .Profile .profile-right-data {
+    width: 100%;
+  }
+  
+  .menubar{
+    display: block;
+  }
+}
+
+@media screen and (max-width:794px) {
+  .Profile .profile-right-data .jobsData{
+    columns: 1;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .grid-col-2 {
+    grid-template-columns: 1fr;
+  }
+  .c-padding {
+    padding: 0px 1rem;
+  }
+}
